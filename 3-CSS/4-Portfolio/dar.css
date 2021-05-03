@@ -1,0 +1,217 @@
+body{
+    background-color: white;
+}
+div.head{
+    display: flex;
+    background-image: linear-gradient(#f3f3f3,#fefefe );
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 60px;
+}
+h1{
+    margin-left: 20px;
+}
+h2{
+    margin-right: 30px;
+}
+div.mdiv{
+    background-image: linear-gradient(rgba(30,14,19,255),rgba(111,89,100,255));
+    width: 1000px;
+    height: 300px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+div.m1div{
+    display: block;
+    width: 405px;
+    height: 275px;
+    background-color: rgba(192,192,192,255);
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 3px 3px 3px 3px;
+    box-sizing: border-box;
+}
+div.m2div{
+    width: 500px;
+    height: 250px;
+    background-color: rgba(227,215,226,255);
+    margin-right: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+div.m21div{
+    height: 40px;
+    background-image: linear-gradient(#b0b0b4, #878593);
+    display: flex;
+    align-items: center;
+}
+p{
+    padding: 4px 4px 4px 4px;
+    margin: 4px 4px 4px 4px;
+    font-size: large;
+}
+a{
+    font-size: large;
+    margin-left: 6px;
+}
+div.m22div{
+    background-color: rgba(225,213,224,255);
+}
+h3{
+    color: white;
+    margin-left: 20px;
+}
+div.midd{
+    position:relative;
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    background-image: linear-gradient(rgba(111,89,100,255),rgba(30,14,19,255));
+    margin-left: 60px;
+    justify-content: space-between;
+}
+h4{
+    background-color:white;
+}
+div.middle{
+    flex:1;
+    background-color:rgba(224,211,223,255);
+    margin-bottom: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+div.m2middle{
+    flex: 1;
+    
+    background-color: rgba(224,211,223,255);
+    margin-bottom: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+div.m3middle{
+    flex: 1;
+    background-color: rgba(224,211,223,255);
+    margin-bottom: 250px;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+h4{
+    background-image: linear-gradient(#a9a8ae, #8f8e9a    );
+    font-size: larger;
+    color: white;
+    margin-left: 10px;
+}
+div.m01middle{
+    height: 40px;
+    width: 282px;
+    display: flex;
+    background-image: linear-gradient(#b0b0b4, #878593);
+    justify-content:left;
+    align-items: center;
+}
+div.m21middle{
+    height: 40px;
+    display: flex;
+    background-image: linear-gradient(#b0b0b4, #878593);
+    justify-content: space-between;
+    align-items: center;
+}
+div.m31middle{
+    height: 40px;
+    display: flex;
+    background-image: linear-gradient(#b0b0b4, #878593);
+    justify-content: space-between;
+    align-items: center;
+}
+p2{
+    font-size: medium;
+    padding: 8px 8px 8px 8px;
+}
+div.ediv{
+    position: relative;
+    background-color: rgba(222,209,221,255);
+    position: absolute;
+    top: 350px;
+    right: 29px;
+    width: 282px;
+    height: 220px;
+}
+div.e1div{
+    position: relative;
+    background-color: rgba(222,209,221,255);
+    position: absolute;
+    top: 350px;
+    right: 361px;
+    width: 282px;
+    height: 220px;
+}
+div.e2div{
+
+    background-color: rgba(222,209,221,255);
+    position: absolute;
+    top: 350px;
+    right: 693px;
+    width: 282px;
+    height: 220px;
+}
+h6{
+    color: white;
+    background-image: linear-gradient( #878593 ,#b0b0b4);
+    font-size:x-large;
+    margin-top: 5px;
+    height: 35px;
+    align-items: center;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    
+}
+div.header{
+    margin-bottom: 30px;
+}
+div.images{
+    margin-left: 5px;
+}
+div.five11{
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+button{
+    
+    width:fit-content;
+    height: 35px;
+    background-color: green;
+    border-style: ridge;
+    color: white;
+    border-radius: 5px;
+}
+
+div.down{
+    
+    background-image: linear-gradient(#fefefe,#f3f3f3 );
+    width: 1000px;
+    height: 80.47px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    
+}
+div.para{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+div.links{
+    margin-left:280px ;
+}
+
+
+
+
+
+
+
