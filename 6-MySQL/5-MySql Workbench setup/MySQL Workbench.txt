@@ -1,0 +1,11 @@
+select * from table;
+
+insert into table(first_column,second_column) 
+values (new_first_column,new_second_column);
+
+update table.first_column set
+first_column='new'
+where id='int';
+
+delete from table
+where id='int'
