@@ -1,0 +1,69 @@
+
+12B@the12b MINGW64 ~/Desktop
+$ mkdir test
+
+12B@the12b MINGW64 ~/Desktop
+$ cd test
+
+12B@the12b MINGW64 ~/Desktop/test
+$ touch index.html
+
+12B@the12b MINGW64 ~/Desktop/test
+$ touch style.css
+
+12B@the12b MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+12B@the12b MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  style.css
+
+12B@the12b MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+12B@the12b MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  index_2.html  style.css
+
+12B@the12b MINGW64 ~/Desktop/test
+$ cd ..
+
+12B@the12b MINGW64 ~/Desktop
+$ mkdir destination
+
+12B@the12b MINGW64 ~/Desktop
+$ cd test
+
+12B@the12b MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  index_2.html  style.css
+
+12B@the12b MINGW64 ~/Desktop/test
+$ mv index_2.html ../index_2.html
+
+12B@the12b MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  style.css
+
+12B@the12b MINGW64 ~/Desktop/test
+$ rm style.css
+
+12B@the12b MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+12B@the12b MINGW64 ~/Desktop/test
+$ cd ..
+
+12B@the12b MINGW64 ~/Desktop
+$ mv index_2.html ./destination/
+
+12B@the12b MINGW64 ~/Desktop
+$ cd destination
+
+12B@the12b MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+12B@the12b MINGW64 ~/Desktop/destination
+$
