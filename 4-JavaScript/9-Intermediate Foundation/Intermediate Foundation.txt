@@ -1,0 +1,108 @@
+function sigma(num){
+
+  var sum=0;
+  for(var i=0;i<=num;i++){
+    sum=sum+i;
+    console.log(sum);
+  }
+  return sum;
+  }
+  var f=3;
+  sigma(f);
+
+------------
+
+function fact(num) {
+ 
+   for (var i = num - 1; i >= 1; i--) {
+    num *= i;
+  }
+  return num;
+}
+console.log(fact(5));
+
+--------
+
+function fibo(index) {
+    if (index == 0) return 0;
+    if (index == 1) return 1;
+    var f1 = 0;
+    var f2 = 1;
+    var swapper;
+    for (var i = 2; i <= index; i++) {
+        swapper = f2;
+        f2 = f1 + f2;
+        f1 = swapper;
+    }
+    console.log("fibo at 3 index is: ", f2);
+}fibo(7);
+
+------------
+
+function second(arr) {
+    if (arr.length >= 2) {
+        return arr[arr.length - 2];
+    } else {
+        return null;
+    }
+}
+
+var m=[4,7,8,9,10];
+console.log(second(m));
+
+
+--------------
+function nth(arr, n) {
+    if (arr.length >= n) {
+        for (var i = arr.length - 1; i >= 0; i--) {
+            if (n == 1) {
+                return arr[i];
+            }
+            n--;
+        }
+    } else {
+        return null;
+    }
+}
+
+var m=[4,5,8,7,2];
+var b=7;
+console.log(nth(m,b));
+
+---------
+
+function secondLastest(arr) {
+    if (arr.length < 2) return null;
+    var max = arr[0];
+    var s = arr[1];
+    if (s > max) {
+        let temp = max;
+        max = s;
+        s = temp;
+    }
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            if (max > s) {
+                s = max;
+            }
+            max = arr[i];
+        } else if (arr[i] > s && arr[i] < max) {
+            s = arr[i];
+        }
+    }
+    console.log("second lasgest: ", s, "Max: ", max);
+}
+
+
+----------
+
+function doubleTouble(arr) {
+    var originLen = arr.length;
+    console.log("Old array: ", arr);
+    arr.length *= 2;
+    for (var i = originLen - 1; i >= 0; i--) {
+        arr[i * 2 + 1] = arr[i];
+        arr[i * 2] = arr[i];
+    }
+    console.log("New array: ", arr);
+    return arr;

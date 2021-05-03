@@ -1,0 +1,22 @@
+var users = [
+Â Â Â Â {
+Â Â Â Â Â Â Â Â name: "Michael",
+Â Â Â Â Â Â Â Â age: 37
+Â Â Â Â },
+Â Â Â Â {
+Â Â Â Â Â Â Â Â name: "John",
+Â Â Â Â Â Â Â Â age: 30
+Â Â Â Â },
+Â Â Â Â {
+Â Â Â Â Â Â Â Â name: "David",
+Â Â Â Â Â Â Â Â age: 27
+Â Â Â Â }
+];
+
+console.log([users[1].age);
+
+console.log(users[0].name);
+
+for(var i=0;i<users.length;i++){
+console.log(users[i].name+"-"+users[i].age);
+}

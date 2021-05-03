@@ -1,0 +1,250 @@
+function big(arr){
+  for(var i=0;i<=arr.length;i++){
+    if(arr[i]>=0){
+      arr[i]='big';
+    }
+  }
+  return arr;
+}
+var y=[-1,2,-3,4,5];
+console.log(big(y));
+
+-----------
+
+function lowhigh(arr){
+  var lowv=[0];
+  var highv=[0];
+ for(var i=0;i<=arr.length;i++){
+   if(arr[i]<=lowv){
+     lowv=arr[i];
+   }
+   if(arr[i]>=highv){
+     highv=arr[i];
+   }
+ }
+ console.log(lowv);
+ return highv;
+  
+}
+var x=[0,2,-3,4,11,9];
+console.log(lowhigh(x));
+
+
+------------
+function ret(arr){
+ 
+
+ for(var i=1;i<arr.length;i++){
+  console.log(arr[i]);}
+   for(var j=0;j<arr.length;j++){
+       if(arr[j] % 2 !==0){
+      return arr[j];
+    }
+   }
+  }
+ 
+var c=[4,5,4,7,8];
+console.log(ret(c));
+
+---------------
+function doublearr(arr){
+  for (var i=0;i<arr.length;i++){
+    arr[i] = arr[i]*2;
+  }
+  return arr;
+}
+
+var x = [1,2,3];
+console.log(doublearr(x));
+-----------------
+
+function countPos(arr){
+  var sum=0;
+  for (var i=0;i<arr.length;i++){                           
+    if (arr[i] > 0){
+      sum++;
+    }
+  }
+  arr[arr.length-1] = sum;
+  return arr;
+}
+
+var x = [-1,1,1,1];
+console.log(countPos(x));
+
+----------
+
+function evenOdd(arr){
+  for(var i=0;i<arr.length;i++){
+    if(arr[i] % 2 !==0){
+      if(arr[i+1] % 2 !==0){
+        if(arr[i+2] % 2 !==0){
+          console.log("That's odd");
+        }
+      }
+    }
+    if(arr[i] % 2 == 0){
+      if(arr[i+1] % 2 == 0){
+        if(arr[i+2] % 2 == 0){
+          console.log("Thats Even");
+        }
+      }
+    }
+  }
+}
+
+var x = [1,5,3,2,7,9,8,6,12];
+evenOdd(x);
+
+-----------------
+function increment(arr){
+  for(var i=0;i<arr.length;i++){
+
+    if( i%2 !==0){
+      arr[i]=arr[i]+1;
+    }
+    }
+  return arr;
+}
+var v=[4,5,6,9,7];
+console.log(increment(v));
+
+-----------
+
+
+function prLengths(arr){
+  for (var i=arr.length-1;i>0;i--){
+	  arr[i] = arr[i-1].length;
+  }
+  return arr;
+}
+
+var r = ["hello","dojo","awesome"];
+console.log(prLengths(r));
+
+------------------------
+
+function addseven(arr){
+  var narr=[];
+  for (var i=0;i<arr.length;i++){
+    narr.push(arr[i]+7)
+}
+return narr;
+}
+
+var x=[2,4,5,8,7];
+console.log(addseven(x))
+
+-----
+
+function reverse(arr){
+  for (var i=0;i<arr.length/2;i++){
+    var temp = arr[i];
+    arr[i] =  arr[arr.length-1 - i]; 
+    arr[arr.length-1 - i] = temp;
+  }
+  return arr;
+}
+
+var x = [2,4,6,1];
+console.log(reverse(x));
+
+--------------
+
+function negative(arr){
+  for (var i=0;i<arr.length;i++){
+     if(arr[i]>0){
+       arr[i]=arr[i]*-1;
+     }
+  }
+  return arr;
+  }
+
+  var r=[1,3,-2,4,-3];
+  console.log(negative(r));
+
+-----------
+
+
+function negative(arr){
+  for (var i=0;i<arr.length;i++){
+  if(arr[i]=="food"){
+    console.log("yummy");
+
+  }   
+  else{
+    console.log("I am hungry");
+  } 
+}
+return arr;
+}
+var g=["food","jk","food","drink"];
+console.log(negative(g));
+
+------------
+
+var array = [true,42,"Ada",2,"pizza"];
+var nums = [1,2,3,4,5,6];
+function swap(arr){
+  var temp = arr[0]; 
+  arr[0] = arr[arr.length-1];
+  arr[arr.length-1] = temp;
+  var temp2 = arr[2];
+  arr[2] = arr[arr.length-3];
+  arr[arr.length-3] = temp2;
+  return arr;
+}
+console.log(swap(array));
+console.log(swap(nums));
+-----------
+
+function scale(arr,num){
+  for (var i=0;i<arr.length;i++){
+    arr[i] = arr[i]*num;
+  }
+  return arr;
+}
+
+var array = [1,2,3];
+var number = 3;
+console.log(scale(array,number));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
